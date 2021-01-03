@@ -15,6 +15,7 @@
 		533E3E6D25A2138900904A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533E3E6B25A2138900904A96 /* LaunchScreen.storyboard */; };
 		533E3E7825A2138900904A96 /* essential_developer_courseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533E3E7725A2138900904A96 /* essential_developer_courseTests.swift */; };
 		533E3E8325A2138900904A96 /* essential_developer_courseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533E3E8225A2138900904A96 /* essential_developer_courseUITests.swift */; };
+		533E3E9525A2142900904A96 /* SingletonLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533E3E9425A2142900904A96 /* SingletonLesson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		533E3E7E25A2138900904A96 /* essential-developer-courseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "essential-developer-courseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		533E3E8225A2138900904A96 /* essential_developer_courseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = essential_developer_courseUITests.swift; sourceTree = "<group>"; };
 		533E3E8425A2138900904A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533E3E9425A2142900904A96 /* SingletonLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonLesson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		533E3E5F25A2138700904A96 /* essential-developer-course */ = {
 			isa = PBXGroup;
 			children = (
+				533E3E9325A213EF00904A96 /* Planning Module */,
 				533E3E6025A2138700904A96 /* AppDelegate.swift */,
 				533E3E6225A2138700904A96 /* SceneDelegate.swift */,
 				533E3E6425A2138700904A96 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				533E3E8425A2138900904A96 /* Info.plist */,
 			);
 			path = "essential-developer-courseUITests";
+			sourceTree = "<group>";
+		};
+		533E3E9325A213EF00904A96 /* Planning Module */ = {
+			isa = PBXGroup;
+			children = (
+				533E3E9425A2142900904A96 /* SingletonLesson.swift */,
+			);
+			path = "Planning Module";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				533E3E6525A2138700904A96 /* ViewController.swift in Sources */,
 				533E3E6125A2138700904A96 /* AppDelegate.swift in Sources */,
 				533E3E6325A2138700904A96 /* SceneDelegate.swift in Sources */,
+				533E3E9525A2142900904A96 /* SingletonLesson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
