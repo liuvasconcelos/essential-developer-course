@@ -18,6 +18,7 @@
 		533E3E9525A2142900904A96 /* SingletonLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533E3E9425A2142900904A96 /* SingletonLesson.swift */; };
 		533E3E9D25A2451400904A96 /* DependencyDiagramsLesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533E3E9C25A2451400904A96 /* DependencyDiagramsLesson.swift */; };
 		533E3EA325A2455E00904A96 /* DependencyDiagramsLesson.png in Resources */ = {isa = PBXBuildFile; fileRef = 533E3EA225A2455E00904A96 /* DependencyDiagramsLesson.png */; };
+		533E3EAA25AF37C300904A96 /* ModularDesignLesson.png in Resources */ = {isa = PBXBuildFile; fileRef = 533E3EA925AF37C300904A96 /* ModularDesignLesson.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		533E3E9425A2142900904A96 /* SingletonLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonLesson.swift; sourceTree = "<group>"; };
 		533E3E9C25A2451400904A96 /* DependencyDiagramsLesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyDiagramsLesson.swift; sourceTree = "<group>"; };
 		533E3EA225A2455E00904A96 /* DependencyDiagramsLesson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DependencyDiagramsLesson.png; path = ../../../../../../../Desktop/DependencyDiagramsLesson.png; sourceTree = "<group>"; };
+		533E3EA925AF37C300904A96 /* ModularDesignLesson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ModularDesignLesson.png; path = ../../../../../../../Desktop/ModularDesignLesson.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +140,9 @@
 		533E3E9325A213EF00904A96 /* Planning Module */ = {
 			isa = PBXGroup;
 			children = (
+				533E3EA825AF37A500904A96 /* ModularDesignLesson */,
+				533E3EA725AF379000904A96 /* SingletonLesson */,
 				533E3EA125A2454B00904A96 /* DependencyDiagramsLesson */,
-				533E3E9425A2142900904A96 /* SingletonLesson.swift */,
 			);
 			path = "Planning Module";
 			sourceTree = "<group>";
@@ -151,6 +154,22 @@
 				533E3E9C25A2451400904A96 /* DependencyDiagramsLesson.swift */,
 			);
 			path = DependencyDiagramsLesson;
+			sourceTree = "<group>";
+		};
+		533E3EA725AF379000904A96 /* SingletonLesson */ = {
+			isa = PBXGroup;
+			children = (
+				533E3E9425A2142900904A96 /* SingletonLesson.swift */,
+			);
+			path = SingletonLesson;
+			sourceTree = "<group>";
+		};
+		533E3EA825AF37A500904A96 /* ModularDesignLesson */ = {
+			isa = PBXGroup;
+			children = (
+				533E3EA925AF37C300904A96 /* ModularDesignLesson.png */,
+			);
+			path = ModularDesignLesson;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 				533E3E6D25A2138900904A96 /* LaunchScreen.storyboard in Resources */,
 				533E3E6A25A2138900904A96 /* Assets.xcassets in Resources */,
 				533E3EA325A2455E00904A96 /* DependencyDiagramsLesson.png in Resources */,
+				533E3EAA25AF37C300904A96 /* ModularDesignLesson.png in Resources */,
 				533E3E6825A2138700904A96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
